@@ -1,0 +1,223 @@
+.header  {
+    position:relative ;
+    display:flex;
+    left: 0px;
+    top: 0px;
+    justify-content: space-around;
+}
+.header li{
+    color:aliceblue;
+    display:inline-block;
+    font-size: 30px;    
+}
+.header-pesquisar{
+    display: inline-block;
+}
+.pesquisar{
+    padding-left:18px;     
+	padding-top:8px;       
+	height:10px;                                      
+	background:url(../img/lupa.png);
+	background-repeat:no-repeat;
+}
+.aside-imagem{
+    display:block;
+    background-image: url(../img/corredor.png);
+    height: 720px;
+    background-size: cover;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.h3-corra{
+    background-image: url(../img/↗.png);
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    color: #FFFFFF;
+    font-size: 100px;
+
+}
+.section-initial{
+    margin-top:20px;
+    display: flex;
+    margin-left:50px;
+}
+.section-texto h1{
+    font-size: 104px;
+    background-image: linear-gradient(#dadada, #9F9F9F);
+    background-clip: text;
+    -webkit-background-clip: text;
+  color: transparent;
+}
+.texto{
+    font-size: 20px;
+}
+.section-tenis-branco{
+    margin-top: 20px;
+    padding-left: 50px;
+}
+.circulo{
+    position:absolute;
+   margin-left: 250px;    
+}
+.tenis-branco-sneak{
+    position: relative;
+}
+.botao-carrinho{
+    position: relative;
+    width: 336px;
+    height: 84px;
+    margin-top:30px;
+    margin-bottom: 100px;
+    border: 2px solid #1F1F1F;
+    box-sizing: border-box;
+    border-radius: 12px;
+    background: none;
+    font-size:18px;
+}
+.aside{
+   background-color: #E5E5E5;
+   height: 760px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 50px;
+   margin-left: 50px;
+   margin-right:50px;
+}
+.aside-menu{
+    display: flex;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+.aside-carrinho{
+    margin-top:80px;
+    position: relative;
+    width: 336px;
+    height: 84px;
+    margin-top:30px;
+    margin-bottom: 100px;
+    border: 2px solid #1F1F1F;
+    box-sizing: border-box;
+    border-radius: 12px;
+    background: none;
+    font-size:18px;
+}
+.section-leveza{
+    display: flex;
+    color:#1F1F1F;
+    margin-top: 80px;
+    padding-left:50px;
+    padding-right: 50px;
+}
+.section-leveza h3{
+    font-size: 64px;
+    background-image: linear-gradient(#dadada, #9F9F9F);
+    background-clip: text;
+    -webkit-background-clip: text;
+   color: transparent;
+}
+.section-leveza p{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;    
+    line-height: 28px;
+}
+.section-amortecimento{
+    display:inline-flex;
+    color:#1F1F1F;
+    margin-top: 80px;
+    flex-direction: row-reverse;
+    padding-right: 50px;
+    
+}
+.section-amortecimento h3{
+    font-size: 64px;
+    background-image: linear-gradient(#dadada, #9F9F9F);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-left: 200px;
+}
+.section-amortecimento p {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px; 
+    margin-left: 200px;  
+}
+.section-imagem{
+   display:inline-flex;
+}
+.section-imagem-correndo{
+ 
+    width: 340px;
+    height: 600px;
+    left: 0px;
+    top: 0px;
+    padding-left:50px;
+}
+.section-imagem-parado{
+    position:relative;
+    width: 252px;
+    height: 600px;
+    left: 38px;    
+}
+ .section-sensacao{
+    display: flex;
+    color:#1F1F1F;
+    margin-top: 80px;
+    padding-left:50px;
+    padding-right: 50px;
+ }
+ .section-sensacao h3{
+    font-size: 64px;
+    background-image: linear-gradient(#dadada, #9F9F9F);
+    background-clip: text;
+    -webkit-background-clip: text;
+   color: transparent;
+}
+.section-sensacao p {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+.section-final{
+    padding-top: 50px;
+    display: flex;
+    width: 613px;
+    height: 838px;
+    left: 907px;
+    padding-left: 50px;
+}
+.mapa{
+    padding-top: 50px;
+}
+.formulario{
+    display: grid;
+    flex-direction:column;
+    width: 100%;
+    height: 100%;
+
+}
+.formulario h3{
+    font-size: 40px;
+    display:block;
+    align-items: ;
+    padding: 20px;
+}
+.formulario-input{
+    height: 76px;
+    width: 517px;
+    border-radius: 12px;
+    padding :20px;
+
+}
+.folter{
+    display:flex;
+    padding-top: 80px;
+    padding-left: 80px;
+    justify-content: space-between;
+}
